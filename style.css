@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1020;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 25px;
+  background: linear-gradient(90deg, #0f4cff, #00c6ff);
+}
+
+.hero img {
+  width: 90%;
+  max-width: 650px;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+.products {
+  padding: 25px;
+}
+
+table {
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 12px;
+  border-bottom: 1px solid #2a2f4f;
+}
+
+table th {
+  background: #121a3a;
+}
+
+.stock-btn {
+  background: #25D366;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.out-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.order-form {
+  padding: 20px;
+}
+
+.order-form input {
+  width: 80%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.order-form button {
+  background: #0f4cff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
